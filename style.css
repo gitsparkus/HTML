@@ -23,11 +23,13 @@ img {
 }
 
 header {
-    padding-left: 231px;
-    padding-right: 240px;
+    /*padding-left: 231px;*/
+    /*padding-right: 240px;*/
     background: #222222;
     height: 75px;
+}
 
+.menu {
     display: flex;
     justify-content: space-between;
 }
