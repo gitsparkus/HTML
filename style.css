@@ -10,8 +10,8 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     background: #ffffff;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -148,14 +148,17 @@ header {
 
 .banner1 {
     background-image: url("./img/banner1.png");
+    background-size: contain;
 }
 
 .banner2 {
     background-image: url("./img/banner2.png");
+    background-size: contain;
 }
 
 .banner3 {
     background-image: url("./img/banner3.png");
+    background-size: contain;
 }
 
 .large_banner {
@@ -163,6 +166,7 @@ header {
     grid-column-start: 1;
     grid-column-end: 4;
     background-image: url("./img/banner4.png");
+    background-size: contain;
 }
 
 .shadow {
@@ -304,4 +308,111 @@ header {
     line-height: 19px;
 
     color: #F26376;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        width: 768px;
+    }
+
+    .container {
+        width: 735px;
+        margin: 0 auto;
+    }
+
+    header {
+        height: 74px;
+    }
+
+    .logo {
+        padding-bottom: 18px;
+    }
+
+    .btn_search {
+        padding-bottom: 19px;
+    }
+
+    .menu {
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 74px;
+    }
+
+    .menu_right_side {
+        width: 169px;
+    }
+
+    .btn_menu {
+        padding-top: 31px;
+        padding-bottom: 20px;
+    }
+
+    .btn_profile {
+        padding-top: 27px;
+        padding-bottom: 18px;
+    }
+
+    .btn_cart {
+        padding-top: 27px;
+        padding-bottom: 18px;
+    }
+
+    .sub_header {
+        height: 368px;
+    }
+
+    .sub_header_left {
+        width: 386px;
+    }
+
+    .sub_header_right {
+        padding-top: 138px;
+        padding-bottom: 138px;
+        padding-left: 39px;
+    }
+
+    .sub_header_logo {
+        width: 311px;
+    }
+
+    .logo_font {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .logo_font2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .banners {
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-bottom: 110px;
+    }
+
+    .banner {
+        height: 168px;
+    }
+
+    .large_banner {
+        height: 116px;
+    }
+
+    .fetured_header {
+        margin-bottom: 74px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 16px;
+        row-gap: 16px;
+        margin-bottom: 33px;
+    }
+
+    .button_footer {
+        margin-bottom: 71px;
+    }
+
 }
