@@ -310,6 +310,7 @@ header {
     color: #F26376;
 }
 
+
 @media (max-width: 768px) {
 
     body {
@@ -415,4 +416,86 @@ header {
         margin-bottom: 71px;
     }
 
+}
+
+@media (max-width: 375px) {
+
+    body {
+        width: 375px;
+    }
+
+    .mobile_hide {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .container {
+        width: 359px;
+    }
+
+    header {
+        height: 74px;
+    }
+
+    .menu_right_side {
+        width: 32px;
+    }
+
+    .sub_header {
+        height: 363px;
+        margin-bottom: 64px;
+    }
+
+    .sub_header_right {
+        padding-top: 148px;
+        padding-bottom: 149px;
+        padding-left: 56px;
+    }
+
+    .sub_header_logo {
+        width: 263px;
+        height: 66px;
+    }
+
+    .logo_font {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .logo_font2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .banners {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 64px;
+        align-items: center;
+    }
+
+    .banner {
+        height: 247px;
+        width: 343px;
+    }
+
+    .large_banner {
+        height: 111px;
+        width: 343px;
+    }
+
+    .fetured_header {
+        margin-bottom: 65px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 16px;
+        margin-bottom: 41px;
+    }
+
+    .button_footer {
+        margin-bottom: 85px;
+    }
 }
