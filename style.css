@@ -31,8 +31,6 @@ img {
 }
 
 header {
-    /*padding-left: 231px;*/
-    /*padding-right: 240px;*/
     background: #222222;
     height: 75px;
 }
@@ -42,7 +40,7 @@ header {
     justify-content: space-between;
 }
 
-.menu_lef_side {
+.menu_left_side {
     display: flex;
     justify-content: space-between;
     width: 111px;
@@ -51,11 +49,6 @@ header {
 .logo {
     padding-top: 18px;
     padding-bottom: 19px;
-}
-
-.menu_buttons {
-    border: none;
-    background: none;
 }
 
 .btn_search {
@@ -67,6 +60,11 @@ header {
     width: 159px;
     display: flex;
     justify-content: space-between;
+}
+
+.menu_buttons {
+    border: none;
+    background: none;
 }
 
 .btn_menu {
@@ -169,8 +167,6 @@ header {
 .menu_list {
     width: 232px;
     height: 634px;
-    left: 1368px;
-    top: 75px;
     position: absolute;
     background: #FFFFFF;
     top: 0px;
@@ -279,10 +275,6 @@ header {
     text-align: center;
 
     color: #F16D7F;
-}
-
-.fetured {
-
 }
 
 .fetured_header {
@@ -409,7 +401,7 @@ header {
     color: #F16D7F;
 }
 
-.button_footer {
+.button_browse {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -449,7 +441,7 @@ header {
 
 }
 
-.features_cards {
+.feature_card {
     height: 134px;
 
     display: flex;
@@ -536,7 +528,7 @@ header {
     width: 557px;
 }
 
-.form_title {
+.subscribe_form_title {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -547,7 +539,7 @@ header {
     color: #222224;
 }
 
-.form_subtitle {
+.subscribe_form_subtitle {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -566,7 +558,7 @@ header {
     width: 356px;
 }
 
-.subscribe_email {
+.subscribe_form_email {
     border: none;
     background: #E1E1E1;
     height: 49px;
@@ -587,7 +579,7 @@ header {
 
 }
 
-.subscribe_button {
+.subscribe_form_button {
     background: #E05C6E;
     font-family: 'Lato';
     font-style: normal;
@@ -648,7 +640,7 @@ footer {
     background: #F16D7F;
 }
 
-.social_button:hover .social_img{
+.social_button:hover .social_logo{
     filter: invert(1);
 }
 
@@ -764,8 +756,32 @@ footer {
         margin-bottom: 33px;
     }
 
-    .button_footer {
+    .features {
+        height: 610px;
+        flex-direction: column;
+        padding: 48px 204px 64px;
+    }
+
+    .subscribe {
+        height: 693px;
+        background-color: #f1f1f1;
+        background-position: -450px 50px;
+        background-size: 333%;
+        background-repeat: no-repeat;
+    }
+
+    .subscribe_shadow {
+        flex-direction: column;
+    }
+
+    .button_browse {
         margin-bottom: 71px;
+    }
+
+    footer {
+        padding-left: 32px;
+        padding-right: 32px;
+
     }
 
 }
@@ -847,7 +863,21 @@ footer {
         margin-bottom: 41px;
     }
 
-    .button_footer {
+    .button_browse {
         margin-bottom: 85px;
+    }
+
+    .features {
+         padding: 48px 13px 81px 14px;
+    }
+
+    .subscribe_shadow {
+        padding: 64px 16px 110px;
+    }
+    footer {
+        padding: 43px 62px 9px;
+        height: 143px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
