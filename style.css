@@ -871,6 +871,14 @@ footer {
          padding: 48px 13px 81px 14px;
     }
 
+    .subscribe {
+        height: 550px;
+        background-color: #f1f1f1;
+        background-position: -340px 130px;
+        background-size: 400%;
+        background-repeat: no-repeat;
+    }
+
     .subscribe_shadow {
         padding: 64px 16px 110px;
     }
