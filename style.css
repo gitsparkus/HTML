@@ -96,9 +96,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.cart_number p {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
